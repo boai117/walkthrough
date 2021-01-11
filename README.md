@@ -25,3 +25,6 @@ Here it records every step of my learning.
 
 7. `text="{i18n>showHelloButtonText}"` 语法从 `i18n` model 取出数据。
 
+8. Components are independent and reusable parts used in SAPUI5 applications.
+
+9. `Component` 里的 `init` 方法会在 `Component` 对象被创建的时候自动调用. 在 `Component` 里面定义了 root view，而不是之前那样在 `index.js` 里面创建 view。同时也把 `controller` 里面 `onInit` 方法做的事情移到这里做，设置 `model` 的时候不是 `this.getView().setModel(oModel);`, 而是 `this.setModel(oModel);`. 最后 `index.js` 里面创建 `ComponentContainer`.
