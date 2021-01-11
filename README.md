@@ -13,4 +13,8 @@ Here it records every step of my learning.
 
 `sap.ui.require` 也是异步加载某个依赖，但是不会定义一个 namespace。
 
-2. 
+2. `value="{/recipient/name}"` 叫做 `data binding`, 括号里面的 `/recipient/name` 定义了资源的路径.
+
+3. `value="{/recipient/name}"` 是 `simple binding syntax`; `description="Hello {/recipient/name}"` 是 `complex binding syntax`. 为了支持后者，需要在 index.html 里显式设置 `data-sap-ui-compatVersion="edge"` or `data-sap-ui-bindingSyntax="complex"`.
+
+4. `this.getView().setModel(oModel)` 这行代码是为了 view 里面能够使用 model。
