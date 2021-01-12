@@ -41,4 +41,4 @@ Here it records every step of my learning.
     * 创建多个属性给 `index.html` 的 `header` 部分，用以在移动设备上显示得更好.
     * 提供功能以在不同的 `page` 之间做 `navigation`.
 
-15. 
+15. `Fiori launchpad` 已经有 `shell` 在 `Component UI` 周围, 不需要再添加 `Shell`.
