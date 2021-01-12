@@ -2,7 +2,21 @@
 	"_version": "1.12.0",
 	"sap.app": {
 		"id": "sap.ui.demo.walkthrough",
-		"type": "application"
+		"type": "application",
+		"i18n": "i18n/i18n.properties",
+		"title": "{{appTitle}}",
+		"description": "{{appDescription}}",
+		"applicationVersion": {
+			"version": "1.0.0"
+		}
+	},
+	"sap.ui": {
+		"technology": "UI5",
+		"deviceTypes": {
+			"desktop": true,
+			"tablet": true,
+			"phone": true
+		}
 	},
 	"sap.ui5": {
 		"dependencies": {
@@ -25,13 +39,9 @@
 				"type": "sap.ui.model.resource.ResourceModel",
 				"settings": {
 					"bundleName": "sap.ui.demo.walkthrough.i18n.i18n",
-					"supportedLocales": ["en", "de"],
-					"fallbackLocale": "en"
+					"supportedLocales": [""],
+					"fallbackLocale": ""
 				}
-			},
-			"": {
-				"type": "sap.ui.model.json.JSONModel",
-				"uri": "model/todoitems.json"
 			}
 		},
 		"resources": {
