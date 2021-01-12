@@ -36,3 +36,9 @@ Here it records every step of my learning.
 12. `"title": "{{appTitle}}"` 这是对资源文件的变量引用，不是数据绑定的语法。
 
 13. `metadata : { manifest: "json" }` 这段 `Component` 的代码指定了实例化 `Component` 的时候自动加载和解析 `manifest.json` 文件。所以是加载顺序是先有 `Component.js` 再有 `manifest.json`。
+
+14. `sap.m.App` 组件会在背后做以下事情：
+    * 创建多个属性给 `index.html` 的 `header` 部分，用以在移动设备上显示得更好.
+    * 提供功能以在不同的 `page` 之间做 `navigation`.
+
+15. 
