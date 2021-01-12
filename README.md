@@ -47,3 +47,13 @@ Here it records every step of my learning.
 
 17. 不要在 `custom CSS` 中设定颜色，而是使用标准的 `theme-denpendent` 的 `class`.
 
+18. `Fragment` 是轻量级 UI，可以被多个 `view` 重用，没有对应的 `controller`。其里面的事件处理函数可以放在所属 `view` 对应的 `controller`. `Dialog` 不属于任何 `view`，必须通过 `controller` 去实例化。
+
+19. `Fragment` 本身不是 `control`，没有在 `DOM` 中存在，它只是个装 `controls` 的容器。
+
+20. `Fragment.load` 创建 Fragment 实例，可以提供的参数是：
+* `id`：所属 `view` 的 `id`
+* `name`：`fragment` 的 `name`，就是其名字
+
+21. `oView.addDependent(oDialog)` 把 `dialog` 放到了 `view` 的生命周期里。这样的好处是它随着 `view` 的销毁而销毁，不需要我们手动销毁这个对象。
+
