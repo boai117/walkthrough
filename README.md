@@ -42,3 +42,8 @@ Here it records every step of my learning.
     * 提供功能以在不同的 `page` 之间做 `navigation`.
 
 15. `Fiori launchpad` 已经有 `shell` 在 `Component UI` 周围, 不需要再添加 `Shell`.
+
+16. `Fiori launchpad` 的 `SAPUI5` 版本是统一管理维护的，这种情况下，最好不要自己手动添加 `style.css`, 因为需要自己控制它在每个版本中都是ok的。
+
+17. 不要在 `custom CSS` 中设定颜色，而是使用标准的 `theme-denpendent` 的 `class`.
+
