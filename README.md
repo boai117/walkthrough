@@ -57,3 +57,6 @@ Here it records every step of my learning.
 
 21. `oView.addDependent(oDialog)` 把 `dialog` 放到了 `view` 的生命周期里。这样的好处是它随着 `view` 的销毁而销毁，不需要我们手动销毁这个对象。
 
+22. 当 `Fragment` 里有事件处理函数的时候，比如里面有个 `button` 有 `press` 事件，需要把这个事件处理函数放到某个 `controller` 里面，可以在 `Fragment.load()` 的时候添加参数 `controller: this`。这样这个函数就可以放到这个对应的 `controller` 里了，然后通过 `this.xxx` 调用其他东西。
+
+23. 
