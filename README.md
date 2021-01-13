@@ -64,3 +64,5 @@ Here it records every step of my learning.
 24. `items="{invoice>/Invoices}"` 绝对路径，`title="{invoice>Quantity}"` 相对路径.
 
 25. `Calculated Fields` 是一种允许绑定多个 `model` 中的不同属性到一个单一的 `control` 属性的绑定语法。
+
+26. `Expression Binding` 表达式数据绑定方式，能够做简单的计算逻辑。
