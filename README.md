@@ -60,3 +60,5 @@ Here it records every step of my learning.
 22. 当 `Fragment` 里有事件处理函数的时候，比如里面有个 `button` 有 `press` 事件，需要把这个事件处理函数放到某个 `controller` 里面，可以在 `Fragment.load()` 的时候添加参数 `controller: this`。这样这个函数就可以放到这个对应的 `controller` 里了，然后通过 `this.xxx` 调用其他东西。
 
 23. 在 `Component` 里面可以通过 `this.getRootControl()` 拿到 `root view`. `Controller` 里面可以通过 `this.getOwnerComponent()` 拿到对应的 `Component`.
+
+24. `items="{invoice>/Invoices}"` 绝对路径，`title="{invoice>Quantity}"` 相对路径
