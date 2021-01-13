@@ -61,4 +61,6 @@ Here it records every step of my learning.
 
 23. 在 `Component` 里面可以通过 `this.getRootControl()` 拿到 `root view`. `Controller` 里面可以通过 `this.getOwnerComponent()` 拿到对应的 `Component`.
 
-24. `items="{invoice>/Invoices}"` 绝对路径，`title="{invoice>Quantity}"` 相对路径
+24. `items="{invoice>/Invoices}"` 绝对路径，`title="{invoice>Quantity}"` 相对路径.
+
+25. `Calculated Fields` 是一种允许绑定多个 `model` 中的不同属性到一个单一的 `control` 属性的绑定语法。
