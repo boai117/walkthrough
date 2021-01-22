@@ -66,3 +66,8 @@ Here it records every step of my learning.
 25. `Calculated Fields` 是一种允许绑定多个 `model` 中的不同属性到一个单一的 `control` 属性的绑定语法。
 
 26. `Expression Binding` 表达式数据绑定方式，能够做简单的计算逻辑。
+
+27. 添加远程 service 之后会出现 `CORS` error, 需要做一些配置。参考:
+https://sapui5.hana.ondemand.com/#/topic/5bb388fc289d44dca886c8fa25da466e.html
+
+主要是用到 `cors-anywhere` 这个 `node` library.

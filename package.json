@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "ui5 serve",
+    "proxy": "node proxy.js"
+  },
+  "devDependencies": {
+    "cors-anywhere": "^0.4.3"
   },
   "keywords": [],
   "author": "",
